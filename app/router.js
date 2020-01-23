@@ -7,4 +7,7 @@ export default class Router extends EmberRouter {
 }
 
 Router.map(function() {
+  this.route('layouts', function() {
+    this.route('2-column-sidebar');
+  });
 });
